@@ -1,4 +1,9 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 
+}
 
 :root {
     --colour01: #FFF07C;
@@ -9,9 +14,29 @@
 }
 
 body {
-    background-color: var(--colour04);
+    background-color: var(--colour02);
 }
 
 header {
     background-color: var(--colour01);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: var(--colour04);
+    max-width: 700px;
+    min-width: 400px;
+    margin: auto;
+}
+
+div.inputData {
+    padding: 20px;
+}
+
+input {
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
 }
