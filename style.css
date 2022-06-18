@@ -1,0 +1,17 @@
+
+
+:root {
+    --colour01: #FFF07C;
+    --colour02: #5D737E;
+    --colour03: #000000;
+    --colour04: #F0F7EE;
+    --colour05: #87BBA2;
+}
+
+body {
+    background-color: var(--colour04);
+}
+
+header {
+    background-color: var(--colour01);
+}
