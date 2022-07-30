@@ -6,11 +6,11 @@
 }
 
 :root {
-    --colour01: #FFF07C;
-    --colour02: #5D737E;
-    --colour03: #000000;
-    --colour04: #F0F7EE;
-    --colour05: #87BBA2;
+    --colour01: #EFF1F3;
+    --colour02: #696773;
+    --colour03: #009FB7;
+    --colour04: #FED766;
+    --colour05: #272727;
 }
 
 body {
@@ -18,13 +18,13 @@ body {
 }
 
 header {
-    background-color: var(--colour01);
+    background-color: var(--colour03);
     padding: 20px;
     text-align: center;
 }
 
 main {
-    background-color: var(--colour04);
+    background-color: var(--colour01);
     max-width: 700px;
     min-width: 400px;
     margin: auto;
