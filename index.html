@@ -12,17 +12,22 @@
         <h1>GPA M60</h1>
     </header>
     <main>
-        <section>
+        <section class="main">
             <div class="inputData">
-                <p>Número de disciplinas: <input type="number" id="txtSubject"></p>
+                <h1>Add Subject:</h1>
+                <p>Subject: <input type="text" id="subject"></p>
+                <p>Note: <input class="number" type="number" id="note"> Credit: <input class="number" type="number" id="credit"><input class="b" type="button" value="Add subjects" onclick="addSub()"></p>
+                <p></p>
             </div>
             <div class="outputData">
-
+                <p><input class="b" type="button" value="Calculate GPA"></p>
+                <select name="subjects" id="tabSub"></select>
             </div>
         </section>
     </main>
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

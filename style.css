@@ -25,19 +25,48 @@ header {
 }
 
 main {
-    background-color: var(--colour01);
     max-width: 700px;
     min-width: 400px;
     margin: auto;
 }
 
 div.inputData {
-    padding: 20px;
+}
+
+div.outputData {
 }
 
 input {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
-    height: 40px;
-    width: 40px;
+    margin: 10px;
 }
+
+input.number {
+    width: 60px;
+}
+
+input.b {
+    font-size: 15px;
+    margin: 20px 0px 10px 0px;
+    padding: 5px;
+}
+
+section.main {
+    background-color: var(--colour01);
+    border-radius: 20px;
+    box-shadow: 7px 5px 7px #00000048;
+    padding: 20px;
+    
+}
+
+select#tabSub {
+    margin: 10px 0px 20px 0px;
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    margin: 0px 0px 15px;
+}
+
