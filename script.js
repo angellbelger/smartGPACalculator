@@ -25,7 +25,10 @@ function addSub (paramSub= 'Nonename', paramNote= 0, paramCred= 0){
     }
     let list = []
     list.push(subjectsPro)
-    for (var c = 0; c < list.length; c++)
-        window.alert(`Sub${list.subjectsPro.subject} - Note: ${list.subjectsPro.note} - Credit: ${list.subjectsPro.credit} <br>`)
+    
+    let item = document.createElement('option')
+    item.text = `The value is ${list.subjectsPro.subject}`
+    item.value = list[0].subject.value
+    tabSub.appendChild(item)
 
 }
