@@ -6,7 +6,7 @@
 }
 
 :root {
-    --colour01: #;
+    --colour01: #f0ffff;
     --colour02: #696773;
     --colour03: #009FB7;
     --colour04: #FED766;
@@ -14,7 +14,10 @@
 }
 
 body {
-    background-color: var(--colour02);
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -28,6 +31,14 @@ main {
     max-width: 700px;
     min-width: 400px;
     margin: auto;
+}
+
+footer {
+    background-color: var(--colour03);
+    color: var(--colour01);
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
 }
 
 div.inputData {
@@ -57,6 +68,7 @@ section.main {
     border-radius: 20px;
     box-shadow: 7px 5px 7px #00000048;
     padding: 20px;
+    margin: 25px;
     
 }
 
