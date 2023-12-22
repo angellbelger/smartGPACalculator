@@ -8,7 +8,7 @@
 :root {
     --colour01: #f0ffff;
     --colour02: #696773;
-    --colour03: #009FB7;
+    --colour03: #00000093;
     --colour04: #FED766;
     --colour05: #272727;
 }
@@ -80,5 +80,9 @@ select#tabSub {
 
 h1 {
     margin: 0px 0px 15px;
+}
+
+img#logo {
+    width: 100px;
 }
 
