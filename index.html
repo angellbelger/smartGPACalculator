@@ -14,15 +14,21 @@
     <main>
         <section class="main">
             <div class="inputData">
-                <h1>Calculator GPA - M60</h1>
-                <h1>Add Subject:</h1>
-                <p>Subject: <input type="text" id="subject"></p>
-                <p>Note: <input class="number" type="number" id="note"> Credit: <input class="number" type="number" id="credit"><input class="b" type="button" value="Add subjects" onclick="addSub()"></p>
-                <p></p>
+                <h1 style="text-align: center;">Calculator GPA - M60</h1>
+                <fieldset>
+                    <legend>Subject</legend>
+                    <h1>Add Subject:</h1>
+                    <p>Subject: <input type="text" id="subject"></p>
+                    <p>Note: <input class="number" type="number" id="note"> Credit: <input class="number" type="number" id="credit"><input class="b" type="button" value="Add subjects" onclick="addSub()"></p>
+                    <p></p>
+                </fieldset>
             </div>
             <div class="outputData">
-                <p><input class="b" type="button" value="Calculate GPA"></p>
-                <select name="subjects" id="tabSub"></select>
+                <fieldset>
+                    <legend>Result</legend>
+                    <p><input class="b" type="button" value="See my GPA"></p>
+                    <select name="subjects" id="tabSub"></select>
+                </fieldset>
             </div>
         </section>
     </main>

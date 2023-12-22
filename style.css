@@ -28,7 +28,7 @@ header {
 }
 
 main {
-    max-width: 700px;
+    max-width: 1000px;
     min-width: 400px;
     margin: auto;
 }
@@ -84,5 +84,10 @@ h1 {
 
 img#logo {
     width: 100px;
+
+}
+fieldset {
+    margin: 30px;
+    padding: 30px;
 }
 
