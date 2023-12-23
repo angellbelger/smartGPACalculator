@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Calculator GPA - M60</title>
+    <title>SmartGPA Calculator</title>
 </head>
 <body>
     <header>
@@ -13,27 +13,47 @@
     </header>
     <main>
         <section class="main">
-            <div class="inputData">
-                <h1 style="text-align: center;">Calculator GPA - M60</h1>
-                <fieldset>
-                    <legend>Subject</legend>
-                    <h1>Add Subject:</h1>
-                    <p>Subject: <input type="text" id="subject"></p>
-                    <p>Note: <input class="number" type="number" id="note"> Credit: <input class="number" type="number" id="credit"><input class="b" type="button" value="Add subjects" onclick="addSub()"></p>
-                    <p></p>
-                </fieldset>
-            </div>
-            <div class="outputData">
-                <fieldset>
-                    <legend>Result</legend>
-                    <p><input class="b" type="button" value="See my GPA"></p>
-                    <select name="subjects" id="tabSub"></select>
-                </fieldset>
-            </div>
+                <img src="images/logo-gpa.png" alt="" style="text-align: center; display: block; margin: auto;">
+                <br>
+                <div class="inputData">
+                    <h1 style="text-align: center;">SmartGPA Calculator</h1>
+                    <fieldset>
+                        <legend>Subject</legend>
+                        <h1>Add Subject:</h1>
+                        <p>Subject: <input type="text" id="subject"></p>
+                        <p>Note: <input class="number" type="number" id="note"> Credit: <input class="number" type="number" id="credit"></p>
+                        <p><input class="add" type="button" value="Add subjects" onclick="addSub()"></p>
+                    </fieldset>
+                </div>
+                <div class="outputData">
+                    <fieldset>
+                        <legend>Result</legend>
+                        <h2>Subjects</h2>
+                        <!-- ... (seu HTML existente) ... -->
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Subject</th>
+                                    <th>Note</th>
+                                    <th>Credit</th>
+                                    <th>Action</th> <!-- Nova coluna para o botão de remoção -->
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody"></tbody>
+                            <tfoot>
+                                <tr class="Result">
+                                    <td colspan="2" >GPA: </td>
+                                    <td id="gpa">0.00</td>
+                                    <td></td> <!-- Célula extra no rodapé para alinhar com as outras colunas -->
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </fieldset>
+                </div>
         </section>
     </main>
     <footer>
-        <p>Site desenvolvido pela parceria de Angell Belger com Matheus Tomoto</p>
+        <p>The website was developed in collaboration between Angell Belger and Matheus Tomoto.</p>
     </footer>
     <script src="script.js"></script>
 </body>

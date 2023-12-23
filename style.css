@@ -14,7 +14,7 @@
 }
 
 body {
-    background-image: url(images/background.jpg);
+    background-image: url(images/background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -87,7 +87,44 @@ img#logo {
 
 }
 fieldset {
+    border: solid 1px black;
     margin: 30px;
     padding: 30px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.result {
+    border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    text-align: center;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+.add {
+    background-color: black;
+    color: var(--colour01);
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: none;
+    border: 0px;
+}
